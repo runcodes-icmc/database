@@ -1919,12 +1919,24 @@ GRANT ALL ON TABLE users TO postgres;
 --
 
 INSERT INTO universities (id, abbreviation, name, student_identifier_text, type, state)
-VALUES (1, 'USP', 'Universidade de São Paulo', 'Número USP', 1, 'SP'),
-        (2, 'UFMG', 'Universidade Federal de Minas Gerais', 'Matrícula', 1, 'MG');
+VALUES (1, 'USP', 'Universidade de São Paulo', 'Número USP', 1, 'SP');
+
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (1, 'Python 3', 'py', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (2, 'C', 'c', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (3, 'C++', 'cpp', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (4, 'Haskell', 'hs', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (5, 'Makefile', 'zip', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (6, 'Fortran', 'f', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (7, 'Java 17', 'java', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (8, 'Pascal', 'pas', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (9, 'Portugol 2.6', 'por', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (10, 'R', 'r', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (11, 'Rust', 'rs', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (12, 'Zip', 'zip', false, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (13, 'PDF', 'pdf', false, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (14, 'Golang', 'go', true, '', '', true);
 
 -- Passwords: ?6MgoQik
 INSERT INTO users (email, name, password, type, confirmed, university_id, identifier)
 VALUES 
-    ('danielhlelis@usp.br', 'Lelis', '3eb6ae46d04fe39ab15ef6d9df0b40c91a9685e8', 0, true, 1, '12543822'),
-    ('daniel111906@gmail.com', 'Lelis', '3eb6ae46d04fe39ab15ef6d9df0b40c91a9685e8', 3, true, NULL, NULL),
-    ('jdesbn@usp.br', 'JB', '3eb6ae46d04fe39ab15ef6d9df0b40c91a9685e8', 2, true, 1, '10000000');
+    ('admin@admin', 'Admin', '3eb6ae46d04fe39ab15ef6d9df0b40c91a9685e8', 0, true, 1, '00000000');

@@ -1913,3 +1913,19 @@ GRANT ALL ON TABLE users TO postgres;
 --
 -- PostgreSQL database dump complete
 --
+
+-- Default Languages
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (1, 'Python 3', 'py', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (2, 'C', 'c', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (3, 'C++', 'cpp', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (4, 'Haskell', 'hs', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (5, 'Makefile', 'zip', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (6, 'Fortran', 'f', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (7, 'Java 17', 'java', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (8, 'Pascal', 'pas', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (9, 'Portugol 2.6', 'por', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (10, 'R', 'r', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (11, 'Rust', 'rs', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (12, 'Zip', 'zip', false, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (13, 'PDF', 'pdf', false, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (14, 'Golang', 'go', true, '', '', true);
