@@ -1939,4 +1939,4 @@ INSERT INTO public.allowed_files (id, name, extension, compilable, compile_comma
 -- Passwords: ?6MgoQik
 INSERT INTO users (email, name, password, type, confirmed, university_id, identifier)
 VALUES 
-    ('admin@admin', 'Admin', '3eb6ae46d04fe39ab15ef6d9df0b40c91a9685e8', 0, true, 1, '00000000');
+    ('admin@admin', 'Admin', '3eb6ae46d04fe39ab15ef6d9df0b40c91a9685e8', 3, true, NULL, NULL);

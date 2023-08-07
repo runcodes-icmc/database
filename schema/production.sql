@@ -1929,3 +1929,10 @@ INSERT INTO public.allowed_files (id, name, extension, compilable, compile_comma
 INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (12, 'Zip', 'zip', false, '', '', true);
 INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (13, 'PDF', 'pdf', false, '', '', true);
 INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (14, 'Golang', 'go', true, '', '', true);
+
+-- IMPORTANT: Don't forget to change the default user's password :)
+
+-- Passwords: ?6MgoQik
+INSERT INTO users (email, name, password, type, confirmed, university_id, identifier)
+VALUES 
+    ('admin@admin', 'Admin', '3eb6ae46d04fe39ab15ef6d9df0b40c91a9685e8', 3, true, NULL, NULL);
