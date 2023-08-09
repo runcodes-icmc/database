@@ -9,7 +9,7 @@ SET standard_conforming_strings = on;
 SET check_function_bodies = false;
 SET client_min_messages = warning;
 
-CREATE USER runcodes WITH ENCRYPTED PASSWORD 'asdasd33';
+CREATE USER runcodes;
 CREATE DATABASE runcodes;
 \c runcodes
 GRANT ALL PRIVILEGES ON DATABASE runcodes TO runcodes;
