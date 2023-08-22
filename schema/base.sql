@@ -53,7 +53,7 @@ ALTER TABLE public.alerts OWNER TO runcodes;
 --
 
 CREATE SEQUENCE allowed_files_id_seq
-    START WITH 1
+    START WITH 100
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE

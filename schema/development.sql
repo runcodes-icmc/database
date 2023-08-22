@@ -53,7 +53,7 @@ ALTER TABLE public.alerts OWNER TO runcodes;
 --
 
 CREATE SEQUENCE allowed_files_id_seq
-    START WITH 1
+    START WITH 100
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
@@ -1935,6 +1935,7 @@ INSERT INTO public.allowed_files (id, name, extension, compilable, compile_comma
 INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (12, 'Zip', 'zip', false, '', '', true);
 INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (13, 'PDF', 'pdf', false, '', '', true);
 INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (14, 'Golang', 'go', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (15, 'Octave', 'm', true, '', '', true);
 
 -- Passwords: ?6MgoQik
 INSERT INTO users (email, name, password, type, confirmed, university_id, identifier)
