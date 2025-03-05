@@ -1943,6 +1943,7 @@ INSERT INTO public.allowed_files (id, name, extension, compilable, compile_comma
 INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (20, 'C++ (OpenMP)', 'omp.cpp', true, '', '', true);
 INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (21, 'C (OpenMP + MPI)', 'mpi.c', true, '', '', true);
 INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (22, 'C++ (OpenMP + MPI)', 'mpi.cpp', true, '', '', true);
+INSERT INTO public.allowed_files (id, name, extension, compilable, compile_command, run_command, available) VALUES (23, 'Verilog', 'v', true, '', '', true);
 
 -- Passwords: ?6MgoQik
 INSERT INTO users (email, name, password, type, confirmed, university_id, identifier)
