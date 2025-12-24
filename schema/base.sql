@@ -29,7 +29,7 @@ SET default_tablespace = '';
 SET default_with_oids = false;
 
 --
--- Name: alerts; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: alerts; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE alerts (
@@ -63,7 +63,7 @@ CREATE SEQUENCE allowed_files_id_seq
 ALTER TABLE public.allowed_files_id_seq OWNER TO runcodes;
 
 --
--- Name: allowed_files; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: allowed_files; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE allowed_files (
@@ -94,7 +94,7 @@ CREATE SEQUENCE allowed_files_exercises_id_seq
 ALTER TABLE public.allowed_files_exercises_id_seq OWNER TO runcodes;
 
 --
--- Name: allowed_files_exercises; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: allowed_files_exercises; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE allowed_files_exercises (
@@ -121,7 +121,7 @@ CREATE SEQUENCE blacklist_mails_id_seq
 ALTER TABLE public.blacklist_mails_id_seq OWNER TO runcodes;
 
 --
--- Name: blacklist_mails; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: blacklist_mails; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE blacklist_mails (
@@ -148,7 +148,7 @@ CREATE SEQUENCE commits_id_seq
 ALTER TABLE public.commits_id_seq OWNER TO runcodes;
 
 --
--- Name: commits; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: commits; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE commits (
@@ -188,7 +188,7 @@ CREATE SEQUENCE commits_exercise_cases_id_seq
 ALTER TABLE public.commits_exercise_cases_id_seq OWNER TO runcodes;
 
 --
--- Name: commits_exercise_cases; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: commits_exercise_cases; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE commits_exercise_cases (
@@ -222,7 +222,7 @@ CREATE SEQUENCE compilation_files_id_seq
 ALTER TABLE public.compilation_files_id_seq OWNER TO runcodes;
 
 --
--- Name: compilation_files; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: compilation_files; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE compilation_files (
@@ -249,7 +249,7 @@ CREATE SEQUENCE courses_id_seq
 ALTER TABLE public.courses_id_seq OWNER TO runcodes;
 
 --
--- Name: courses; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: courses; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE courses (
@@ -277,7 +277,7 @@ CREATE SEQUENCE cria_schools_id_seq
 ALTER TABLE public.cria_schools_id_seq OWNER TO runcodes;
 
 --
--- Name: cria_schools; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: cria_schools; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE cria_schools (
@@ -311,7 +311,7 @@ CREATE SEQUENCE cria_students_id_seq
 ALTER TABLE public.cria_students_id_seq OWNER TO runcodes;
 
 --
--- Name: cria_students; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: cria_students; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE cria_students (
@@ -343,7 +343,7 @@ CREATE SEQUENCE disk_reports_id_seq
 ALTER TABLE public.disk_reports_id_seq OWNER TO runcodes;
 
 --
--- Name: disk_reports; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: disk_reports; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE disk_reports (
@@ -359,7 +359,7 @@ CREATE TABLE disk_reports (
 ALTER TABLE public.disk_reports OWNER TO runcodes;
 
 --
--- Name: droplets; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: droplets; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE droplets (
@@ -411,7 +411,7 @@ CREATE SEQUENCE enrollments_id_seq
 ALTER TABLE public.enrollments_id_seq OWNER TO runcodes;
 
 --
--- Name: enrollments; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: enrollments; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE enrollments (
@@ -441,7 +441,7 @@ CREATE SEQUENCE exercise_case_files_id_seq
 ALTER TABLE public.exercise_case_files_id_seq OWNER TO runcodes;
 
 --
--- Name: exercise_case_files; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: exercise_case_files; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE exercise_case_files (
@@ -469,7 +469,7 @@ CREATE SEQUENCE exercise_cases_id_seq
 ALTER TABLE public.exercise_cases_id_seq OWNER TO runcodes;
 
 --
--- Name: exercise_cases; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: exercise_cases; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE exercise_cases (
@@ -510,7 +510,7 @@ CREATE SEQUENCE exercise_files_id_seq
 ALTER TABLE public.exercise_files_id_seq OWNER TO runcodes;
 
 --
--- Name: exercise_files; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: exercise_files; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE exercise_files (
@@ -537,7 +537,7 @@ CREATE SEQUENCE exercises_id_seq
 ALTER TABLE public.exercises_id_seq OWNER TO runcodes;
 
 --
--- Name: exercises; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: exercises; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE exercises (
@@ -562,7 +562,7 @@ CREATE TABLE exercises (
 ALTER TABLE public.exercises OWNER TO runcodes;
 
 --
--- Name: ganglia; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: ganglia; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE ganglia (
@@ -603,7 +603,7 @@ CREATE TABLE ganglia (
 ALTER TABLE public.ganglia OWNER TO runcodes;
 
 --
--- Name: jail_status; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: jail_status; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE jail_status (
@@ -633,7 +633,7 @@ CREATE SEQUENCE logs_id_seq
 ALTER TABLE public.logs_id_seq OWNER TO runcodes;
 
 --
--- Name: logs; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: logs; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE logs (
@@ -662,7 +662,7 @@ CREATE SEQUENCE mail_logs_id_seq
 ALTER TABLE public.mail_logs_id_seq OWNER TO runcodes;
 
 --
--- Name: mail_logs; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: mail_logs; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE mail_logs (
@@ -694,7 +694,7 @@ CREATE SEQUENCE messages_id_seq
 ALTER TABLE public.messages_id_seq OWNER TO runcodes;
 
 --
--- Name: messages; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: messages; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE messages (
@@ -724,7 +724,7 @@ CREATE SEQUENCE offerings_id_seq
 ALTER TABLE public.offerings_id_seq OWNER TO runcodes;
 
 --
--- Name: offerings; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: offerings; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE offerings (
@@ -758,7 +758,7 @@ CREATE SEQUENCE public_exercises_id_seq
 ALTER TABLE public.public_exercises_id_seq OWNER TO runcodes;
 
 --
--- Name: public_exercises; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: public_exercises; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE public_exercises (
@@ -787,7 +787,7 @@ CREATE SEQUENCE questions_id_seq
 ALTER TABLE public.questions_id_seq OWNER TO runcodes;
 
 --
--- Name: questions; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: questions; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE questions (
@@ -815,7 +815,7 @@ CREATE SEQUENCE tickets_id_seq
 ALTER TABLE public.tickets_id_seq OWNER TO runcodes;
 
 --
--- Name: tickets; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: tickets; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE tickets (
@@ -847,7 +847,7 @@ CREATE SEQUENCE universities_id_seq
 ALTER TABLE public.universities_id_seq OWNER TO runcodes;
 
 --
--- Name: universities; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: universities; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE universities (
@@ -863,7 +863,7 @@ CREATE TABLE universities (
 ALTER TABLE public.universities OWNER TO runcodes;
 
 --
--- Name: users; Type: TABLE; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: users; Type: TABLE; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE TABLE users (
@@ -890,7 +890,7 @@ ALTER TABLE ONLY droplets ALTER COLUMN id SET DEFAULT nextval('droplets_id_seq':
 
 
 --
--- Name: blacklist_mails_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: blacklist_mails_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY blacklist_mails
@@ -898,7 +898,7 @@ ALTER TABLE ONLY blacklist_mails
 
 
 --
--- Name: compilation_files_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: compilation_files_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY compilation_files
@@ -906,7 +906,7 @@ ALTER TABLE ONLY compilation_files
 
 
 --
--- Name: cria_schools_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: cria_schools_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY cria_schools
@@ -914,7 +914,7 @@ ALTER TABLE ONLY cria_schools
 
 
 --
--- Name: cria_students_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: cria_students_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY cria_students
@@ -922,7 +922,7 @@ ALTER TABLE ONLY cria_students
 
 
 --
--- Name: disk_reports_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: disk_reports_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY disk_reports
@@ -930,7 +930,7 @@ ALTER TABLE ONLY disk_reports
 
 
 --
--- Name: jail_status_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: jail_status_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY jail_status
@@ -938,7 +938,7 @@ ALTER TABLE ONLY jail_status
 
 
 --
--- Name: mail_logs_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: mail_logs_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY mail_logs
@@ -946,7 +946,7 @@ ALTER TABLE ONLY mail_logs
 
 
 --
--- Name: messages_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: messages_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY messages
@@ -954,7 +954,7 @@ ALTER TABLE ONLY messages
 
 
 --
--- Name: pk_actionlogs; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_actionlogs; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY logs
@@ -962,7 +962,7 @@ ALTER TABLE ONLY logs
 
 
 --
--- Name: pk_alerts; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_alerts; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY alerts
@@ -970,7 +970,7 @@ ALTER TABLE ONLY alerts
 
 
 --
--- Name: pk_commits; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_commits; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY commits
@@ -978,7 +978,7 @@ ALTER TABLE ONLY commits
 
 
 --
--- Name: pk_commits_exercise_case; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_commits_exercise_case; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY commits_exercise_cases
@@ -986,7 +986,7 @@ ALTER TABLE ONLY commits_exercise_cases
 
 
 --
--- Name: pk_courses; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_courses; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY courses
@@ -994,7 +994,7 @@ ALTER TABLE ONLY courses
 
 
 --
--- Name: pk_droplets; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_droplets; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY droplets
@@ -1002,7 +1002,7 @@ ALTER TABLE ONLY droplets
 
 
 --
--- Name: pk_enrollments; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_enrollments; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY enrollments
@@ -1010,7 +1010,7 @@ ALTER TABLE ONLY enrollments
 
 
 --
--- Name: pk_exercise_case_files; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_exercise_case_files; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY exercise_case_files
@@ -1018,7 +1018,7 @@ ALTER TABLE ONLY exercise_case_files
 
 
 --
--- Name: pk_exercise_cases; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_exercise_cases; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY exercise_cases
@@ -1026,7 +1026,7 @@ ALTER TABLE ONLY exercise_cases
 
 
 --
--- Name: pk_exercise_files; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_exercise_files; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY exercise_files
@@ -1034,7 +1034,7 @@ ALTER TABLE ONLY exercise_files
 
 
 --
--- Name: pk_exercises; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_exercises; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY exercises
@@ -1042,7 +1042,7 @@ ALTER TABLE ONLY exercises
 
 
 --
--- Name: pk_exercises_allowed_files; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_exercises_allowed_files; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY allowed_files_exercises
@@ -1050,7 +1050,7 @@ ALTER TABLE ONLY allowed_files_exercises
 
 
 --
--- Name: pk_files; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_files; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY allowed_files
@@ -1058,7 +1058,7 @@ ALTER TABLE ONLY allowed_files
 
 
 --
--- Name: pk_offerings; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_offerings; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY offerings
@@ -1066,7 +1066,7 @@ ALTER TABLE ONLY offerings
 
 
 --
--- Name: pk_tickets; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_tickets; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY tickets
@@ -1074,7 +1074,7 @@ ALTER TABLE ONLY tickets
 
 
 --
--- Name: pk_users; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: pk_users; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY users
@@ -1082,7 +1082,7 @@ ALTER TABLE ONLY users
 
 
 --
--- Name: public_exercises_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: public_exercises_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY public_exercises
@@ -1090,7 +1090,7 @@ ALTER TABLE ONLY public_exercises
 
 
 --
--- Name: questions_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: questions_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY questions
@@ -1098,7 +1098,7 @@ ALTER TABLE ONLY questions
 
 
 --
--- Name: un_offerings_offerings; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: un_offerings_offerings; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY offerings
@@ -1106,7 +1106,7 @@ ALTER TABLE ONLY offerings
 
 
 --
--- Name: unique_enrollments; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: unique_enrollments; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY enrollments
@@ -1114,7 +1114,7 @@ ALTER TABLE ONLY enrollments
 
 
 --
--- Name: universities_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: universities_pkey; Type: CONSTRAINT; Schema: public; Owner: runcodes; Tablespace:
 --
 
 ALTER TABLE ONLY universities
@@ -1122,105 +1122,105 @@ ALTER TABLE ONLY universities
 
 
 --
--- Name: courses_university_id_idx; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: courses_university_id_idx; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX courses_university_id_idx ON courses USING btree (university_id);
 
 
 --
--- Name: idx_commits_commit_time; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_commits_commit_time; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_commits_commit_time ON commits USING btree (commit_time);
 
 
 --
--- Name: idx_commits_exercise_cases_commit_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_commits_exercise_cases_commit_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_commits_exercise_cases_commit_id ON commits_exercise_cases USING btree (commit_id);
 
 
 --
--- Name: idx_commits_exercise_cases_exercise_case_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_commits_exercise_cases_exercise_case_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_commits_exercise_cases_exercise_case_id ON commits_exercise_cases USING btree (exercise_case_id);
 
 
 --
--- Name: idx_commits_exercise_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_commits_exercise_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_commits_exercise_id ON commits USING btree (exercise_id);
 
 
 --
--- Name: idx_commits_status; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_commits_status; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_commits_status ON commits USING btree (status);
 
 
 --
--- Name: idx_commits_user_email; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_commits_user_email; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_commits_user_email ON commits USING btree (user_email);
 
 
 --
--- Name: idx_commits_user_email_hash; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_commits_user_email_hash; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_commits_user_email_hash ON commits USING hash (user_email);
 
 
 --
--- Name: idx_enrollments_offering_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_enrollments_offering_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_enrollments_offering_id ON enrollments USING btree (offering_id);
 
 
 --
--- Name: idx_enrollments_user_email; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_enrollments_user_email; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_enrollments_user_email ON enrollments USING btree (user_email);
 
 
 --
--- Name: idx_exercise_cases_exercise_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_exercise_cases_exercise_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_exercise_cases_exercise_id ON exercise_cases USING btree (exercise_id);
 
 
 --
--- Name: idx_exercises_deadline; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_exercises_deadline; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_exercises_deadline ON exercises USING btree (deadline);
 
 
 --
--- Name: idx_exercises_offering_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_exercises_offering_id; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_exercises_offering_id ON exercises USING btree (offering_id);
 
 
 --
--- Name: idx_exercises_open_date; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_exercises_open_date; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_exercises_open_date ON exercises USING btree (open_date);
 
 
 --
--- Name: idx_mail_logs_hash; Type: INDEX; Schema: public; Owner: runcodes; Tablespace: 
+-- Name: idx_mail_logs_hash; Type: INDEX; Schema: public; Owner: runcodes; Tablespace:
 --
 
 CREATE INDEX idx_mail_logs_hash ON mail_logs USING hash (hash);
@@ -1913,4 +1913,3 @@ GRANT ALL ON TABLE users TO postgres;
 --
 -- PostgreSQL database dump complete
 --
-
