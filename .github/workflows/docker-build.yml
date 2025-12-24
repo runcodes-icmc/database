@@ -59,7 +59,7 @@ jobs:
             type=semver,pattern={{major}},suffix=-production
 
       - name: Build and push (Development)
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v6
         with:
           context: .
           file: ./docker/Dockerfile.development
@@ -70,7 +70,7 @@ jobs:
           cache-to: type=gha,mode=max,scope=${{ github.workflow }}
 
       - name: Build and push (Production)
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v6
         with:
           context: .
           file: ./docker/Dockerfile.production
